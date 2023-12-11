@@ -50,6 +50,7 @@ function oppositeColor(color){
     var oppGreen = 255 - green;
     var oppBlue = 255 - blue;
     //alert(oppRed);
+    //build the rgba string
     return "rgba(" + oppRed +","+ oppGreen + "," + oppBlue + ", 1)";
 }
 function colorPickerEvent(){
